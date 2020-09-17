@@ -30,11 +30,11 @@ private:
 
 public:
     void PrintResult() {
-        m_protocol ? printf("protocol is  : %s \n", m_protocol) : printf("empty protocol");
-        m_ip_domain ? printf("ip domain is : %s \n", m_ip_domain) : printf("empty ip domain");
-        m_port ? printf("port is      : %s \n", m_port) : printf("empty port");
-        m_path ? printf("path is      : %s \n", m_path) : printf("empty path");
-        m_params ? printf("params is    : %s \n", m_params) : printf("empty path");
+        m_protocol ? printf("protocol is  : %s \n", m_protocol) : printf("empty protocol\n");
+        m_ip_domain ? printf("ip domain is : %s \n", m_ip_domain) : printf("empty ip domain\n");
+        m_port ? printf("port is      : %s \n", m_port) : printf("empty port\n");
+        m_path ? printf("path is      : %s \n", m_path) : printf("empty path\n");
+        m_params ? printf("params is    : %s \n", m_params) : printf("empty params\n");
     }
 
 private:
